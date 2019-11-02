@@ -32,6 +32,22 @@ export class SectionChannelsPage implements OnInit {
       id: 5,
       class: 'not-active',
     },
+    {
+      id: 6,
+      class: 'not-active',
+    },
+    {
+      id: 7,
+      class: 'not-active',
+    },
+    {
+      id: 8,
+      class: 'not-active',
+    },
+    {
+      id: 9,
+      class: 'not-active',
+    },
   ]
 
   constructor() { }
