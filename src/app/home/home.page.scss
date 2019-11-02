@@ -1,1 +1,21 @@
+@mixin gradient($direction) {
+	background-image: linear-gradient(to $direction, #00b4ff 0%, #57ddff 51%, #00b4ff 100%);
+}
 
+.content-page {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	@include gradient(left);
+
+	.section-page {
+		padding: 0 50px;
+		display: flex;
+		.left {
+			width: 65%;
+		}
+		.right {
+			width: 35%;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.nav-main {
+	width: 100%;
+	padding: 15px 50px;
+	#logo {
+		width: 30%;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		> h4 {
+			font-size: 25px;
+			margin: 0%;
+			font-weight: bold;
+		}
+		> span {
+			font-size: 25px;
+			margin: 0%;
+		}
+	}
+	#navSearch {
+		width: 40%;
+	}
+	#btnUpload {
+		width: 15%;
+		display: flex;
+		justify-items: center;
+		align-items: center;
+	}
+	#navUser {
+		width: 10%;
+	}
+}
