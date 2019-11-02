@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'section-videos', loadChildren: './section-videos/section-videos.module#SectionVideosPageModule' },
   { path: 'section-activity', loadChildren: './section-activity/section-activity.module#SectionActivityPageModule' },
   { path: 'section-people', loadChildren: './section-people/section-people.module#SectionPeoplePageModule' },
+  { path: 'section-documents', loadChildren: './section-documents/section-documents.module#SectionDocumentsPageModule' },
 ];
 
 @NgModule({

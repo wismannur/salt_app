@@ -10,6 +10,7 @@ import { SubNavbarPage } from '../sub-navbar/sub-navbar.page';
 import { SectionVideosPage } from '../section-videos/section-videos.page';
 import { SectionActivityPage } from '../section-activity/section-activity.page';
 import { SectionPeoplePage } from '../section-people/section-people.page';
+import { SectionDocumentsPage } from '../section-documents/section-documents.page';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { SectionPeoplePage } from '../section-people/section-people.page';
     SectionVideosPage,
     SectionActivityPage,
     SectionPeoplePage,
+    SectionDocumentsPage,
   ]
 })
 export class HomePageModule {}
