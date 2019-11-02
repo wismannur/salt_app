@@ -11,6 +11,7 @@ import { SectionVideosPage } from '../section-videos/section-videos.page';
 import { SectionActivityPage } from '../section-activity/section-activity.page';
 import { SectionPeoplePage } from '../section-people/section-people.page';
 import { SectionDocumentsPage } from '../section-documents/section-documents.page';
+import { SectionChannelsPage } from '../section-channels/section-channels.page';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { SectionDocumentsPage } from '../section-documents/section-documents.pag
     SectionActivityPage,
     SectionPeoplePage,
     SectionDocumentsPage,
+    SectionChannelsPage,
   ]
 })
 export class HomePageModule {}

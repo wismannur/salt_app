@@ -1,0 +1,24 @@
+<div class="section-channels">
+    <div class="row">
+        <div class="title-channels">
+            <h5 class="title">Channels</h5>
+        </div>
+        <div class="check-channels">
+            <span>Browse all channels</span>
+        </div>
+    </div>
+    <ul class="list-channels">
+        <li *ngFor="let a of datalist" [class]="('list ' + a.class)">
+            <div class="row" data-id="a.id">
+                <div class="left">
+                    <div class="image-list"></div>
+                </div>
+                <div class="right">
+                    <h5>Jhon Stainior <span>commented</span></h5>
+                    <p>blablsaksnansasknsas</p>
+                    <p>icon 2 weeks ago</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

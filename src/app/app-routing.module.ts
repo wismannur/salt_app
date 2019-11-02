@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'section-activity', loadChildren: './section-activity/section-activity.module#SectionActivityPageModule' },
   { path: 'section-people', loadChildren: './section-people/section-people.module#SectionPeoplePageModule' },
   { path: 'section-documents', loadChildren: './section-documents/section-documents.module#SectionDocumentsPageModule' },
+  { path: 'section-channels', loadChildren: './section-channels/section-channels.module#SectionChannelsPageModule' },
 ];
 
 @NgModule({
