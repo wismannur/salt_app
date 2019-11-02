@@ -1,1 +1,26 @@
-<h5>ini Activity</h5>
+<div class="section-activity">
+    <div class="row">
+        <div class="title-activity">
+            <h5 class="title">Activity</h5>
+        </div>
+        <div class="check-activity">
+            <span>View timeline</span>
+            <span> / </span>
+            <span>Filter activities</span>
+        </div>
+    </div>
+    <ul class="list-activity">
+        <li *ngFor="let a of datalist" [class]="('list ' + a.class)">
+            <div class="row" data-id="a.id">
+                <div class="left">
+                    <div class="image-list"></div>
+                </div>
+                <div class="right">
+                    <h5>Jhon Stainior <span>commented</span></h5>
+                    <p>blablsaksnansasknsas</p>
+                    <p>icon 2 weeks ago</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
