@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'section-people', loadChildren: './section-people/section-people.module#SectionPeoplePageModule' },
   { path: 'section-documents', loadChildren: './section-documents/section-documents.module#SectionDocumentsPageModule' },
   { path: 'section-channels', loadChildren: './section-channels/section-channels.module#SectionChannelsPageModule' },
+  { path: 'footer', loadChildren: './footer/footer.module#FooterPageModule' },
 ];
 
 @NgModule({
