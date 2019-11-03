@@ -17,10 +17,10 @@
 		}
 	}
 	#navSearch {
-		width: 40%;
+		width: 45%;
 	}
 	#btnUpload {
-		width: 15%;
+		width: 13%;
 		display: flex;
 		justify-items: center;
 		align-items: center;
@@ -30,13 +30,14 @@
 		}
 	}
 	#navUser {
-		justify-content: center;
+		width: 12%;
+		justify-content: right;
 		align-items: center;
 		.logo-user {
 			width: 42px;
 			height: 42px;
 			background: #3880ff;
-			margin-right: 5px;
+			margin: 0 7px;
 			display: flex;
 			> ion-icon {
 				margin: auto;
