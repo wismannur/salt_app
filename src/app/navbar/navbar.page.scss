@@ -7,12 +7,12 @@
 		justify-content: left;
 		align-items: center;
 		> h4 {
-			font-size: 25px;
+			font-size: 30px;
 			margin: 0%;
 			font-weight: bold;
 		}
 		> span {
-			font-size: 25px;
+			font-size: 30px;
 			margin: 0%;
 		}
 	}
@@ -24,8 +24,53 @@
 		display: flex;
 		justify-items: center;
 		align-items: center;
+		> ion-button {
+			margin: auto;
+			height: 42px;
+		}
 	}
 	#navUser {
-		width: 10%;
+		justify-content: center;
+		align-items: center;
+		.logo-user {
+			width: 42px;
+			height: 42px;
+			background: #3880ff;
+			margin-right: 5px;
+			display: flex;
+			> ion-icon {
+				margin: auto;
+				color: #fff;
+				font-size: 25px;
+			}
+		}
+		.user-login {
+			> .first-name {
+				font-size: 17px;
+				margin: 0%;
+				display: flex;
+				> .circle-notive {
+					width: 15px;
+					height: 15px;
+					font-size: 9px;
+					background: red;
+					border-radius: 50%;
+					color: #fff;
+					display: inline-block;
+					text-align: center;
+					padding: 2px;
+					margin: -10px 0 0 0;
+				}
+			}
+			> .last-name {
+				font-size: 12px;
+				margin: 0%;
+			}
+		}
 	}
+}
+
+.row {
+	display: flex;
+    flex-wrap: wrap;
 }
