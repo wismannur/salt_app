@@ -12,10 +12,20 @@
 		display: flex;
 		justify-content: left;
 		align-items: center;
+		cursor: pointer;
+
+		&:hover {
+			color: #fff;
+			.slash-nav {
+				color: #000000;
+			}
+		}
+
 		.slash-nav {
 			font-size: 20px;
 			display: inline-block;
 			margin: 0 20px;
+			cursor: none;
 		}
 
 		&:last-child {
