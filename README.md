@@ -9,3 +9,6 @@ for run
 
 for build
 `$ ionic build`
+
+ScreenShot SaltApp.
+![ScreenShot SaltApp](./screen_shot_saltapp.png)
