@@ -32,7 +32,18 @@
         grid-gap: 10px;
 		> .list {
 			margin: 0%;
-            width: 100%;
+			width: 100%;
+			cursor: pointer;
+			&:hover {
+				color: #fff;
+				.image-list {
+					.logo-close {
+						span {
+							color: #000000;
+						}
+					}
+				}
+			}
             &.active {
 				.image-list {
 					.logo-close {
