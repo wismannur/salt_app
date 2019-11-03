@@ -29,6 +29,7 @@
 			background-clip: content-box;
 			display: flex;
 			padding: 0 7px 7px 0;
+			cursor: pointer;
 			> .text-content {
 				align-self: flex-end;
 				width: 100%;
@@ -59,6 +60,7 @@
 			background-clip: content-box;
 			display: flex;
 			padding: 0 7px 7px 0;
+			cursor: pointer;
 			> .text-content {
 				align-self: flex-end;
 				width: 100%;
@@ -90,9 +92,47 @@
 			background-clip: content-box;
 			display: flex;
 			padding: 0 7px 7px 0;
-
+			cursor: pointer;
 			&.add-people {
-				width: 34%;
+				height: 143px;
+				display: flex;
+				background-color: transparent;
+				border: 2px solid #3880ff;
+				padding: 0 !important;
+				margin: 0 7px 7px 0;
+				
+				&:hover {
+					color: #ffffff;
+					border: 2px solid #ffffff;
+					.add-content {
+						.icon-add {
+							border: 2px solid #ffffff;
+						}
+					}
+				}
+
+				.add-content {
+					justify-content: center;
+					align-items: center;
+					margin: auto;
+					.icon-add {
+						width: 25px;
+						height: 25px;
+						border-radius: 50%;
+						border: 2px solid #000000;
+						display: flex;
+						margin: 0 7px 0 0;
+						ion-icon {
+							margin: auto;
+						}
+					}
+					.text-add {
+						> p {
+							font-size: 12px;
+							margin: 0%;
+						}
+					}
+				}
 			}
 
 			> .text-content {
