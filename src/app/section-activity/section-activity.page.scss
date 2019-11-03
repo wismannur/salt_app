@@ -10,6 +10,10 @@
 		width: 50%;
 		align-self: flex-end;
 		margin: 0 0 10px 0;
+		cursor: pointer;
+		&:hover {
+			color: #fff;
+		}
 		span {
 			font-size: 15px;
 			margin: 0%;
