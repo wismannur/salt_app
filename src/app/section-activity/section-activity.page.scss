@@ -19,13 +19,17 @@
 		border-top: 2px solid #fff;
 		border-bottom: 2px solid #fff;
 		margin: 0%;
-		padding: 6px;
+		padding: 6px 0;
 		list-style: none;
 		> .list {
 			padding: 7px;
 			margin: 0 0 0 -7px;
+			position: relative;
 			&.active {
 				border: 1px solid #fff;
+				.logo-close {
+					display: initial;
+				}
 			}
 
 			.left {
@@ -46,6 +50,31 @@
 				p {
 					font-size: 12px;
 					margin: 0%;
+				}
+			}
+
+			.logo-close {
+				width: 0;
+				height: 0;
+				border-top: 33px solid #fff;
+				border-bottom: 30px solid transparent;
+				border-left: 30px solid transparent;
+				position:absolute;
+				right: 0;
+				top: 0;
+				display: none;
+				cursor: pointer;
+				span {
+					position: absolute;
+					top: -29px;
+					width: 100px;
+					left: -58px;
+					text-align: center;
+					font-size: 10px;
+					font-family: arial;
+					-webkit-transform: rotate(45deg);
+					transform: rotate(90deg);
+					display:block;
 				}
 			}
 		}
